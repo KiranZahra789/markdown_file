@@ -1,0 +1,90 @@
+message =" Hello World"
+print(message)
+
+message:str= "hello pakistan"
+print(message)
+message:str="Pakistan Zindabad"
+print(message)
+
+name = " Kiran"
+print(f'"Hello{name}, Would you like to learn some python?"')
+
+personname =" Kiran"
+print(personname)
+print(personname.lower())
+print(personname.upper())
+print(personname.title())
+
+famous_person: str=" Quaid-e-Azam"
+quote: str="Our object should be peace within,and peace without."
+print(f'{famous_person} , once said "{quote}"')
+
+Famous_person: str ="Allama Iqbal"
+message: str= "The thought of a limit to perceptual space and time staggers the mind..."
+print(f'{Famous_person} once said:" {message}"')
+
+person_name = "      Quaid-e-Azam       "
+person_name2 = " Quaid-e-\n\tAzam"
+print(person_name)
+print(person_name2)
+
+print(person_name.lstrip())
+print(person_name.rstrip())
+print(person_name.strip())
+
+x=5
+y=10
+z=15
+sum=x+y+z
+print(sum)
+
+a=5
+b=10
+print(f"before swap,a={a} and b={b}")
+a,b=b,a
+print(f"after swap,a= {a} and b={b}")
+
+color ="red"
+print(color)
+shade = color
+print(shade)
+
+pet_name = "Buddy"
+pet_name = "Max"
+print(pet_name)
+
+sunshine = "Sunshine"
+print(sunshine)
+
+score:int = 100
+print(score)
+score:int = 200
+print(score)
+
+city:str= "lahore"
+print(city)
+
+text:str = "python programming"
+print(text.title())
+
+mixed_cases: str="PYthON PrograMMing"
+print(mixed_cases.lower())
+
+mixed_cases: str="PYthON PrograMMing"
+print(mixed_cases.upper())
+
+temperature = 25
+print(f"The current Temperature is {temperature} degrees.")
+
+poem:str = '''
+A poem's cool, a poem's real
+A poem can tell just how you feel 
+It can cheer you up, it can make you strong
+whenever you go, take a poem'''
+print(poem)
+
+
+
+
+
+
